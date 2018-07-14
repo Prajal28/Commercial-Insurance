@@ -129,7 +129,8 @@ body, html {
         text-transform: uppercase;
         font-weight: bolder;
         color: rgb(4, 94, 110);
-        padding-bottom: 5%;
+        padding-top: 5%;
+
         font-size: 220%;
     }
 
@@ -358,11 +359,56 @@ body, html {
         margin-top: 4%;
     }
 
-    .hero-text > button, .content-text > button , .left-content-text > button , .contact button{
+    .hero-text > button, .content-text > button , .left-content-text > button , .content button, .content-top-text button{
         font-family: 'Barlow', sans-serif;
         width: auto;    
         font-size: auto;
         background-color: rgb(4, 94, 110);
         
+    }
+
+    .content, .content-plain, .content-top, .contact {
+        position: relative;
+        text-align: center;
+        background-color: whitesmoke;
+        margin: 5%;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .content-top p, ul {
+        text-align: left;
+    }
+    .content p, ul {
+        text-align: left;
+    }
+    .content img {
+        width: 100%;
+    }
+    .content-top img {
+        width : 100%;
+    }
+    
+    .content-text, .left-content-text, .content-top-text {
+    position: relative;
+    top: 50%;
+    padding: 5%;
+    
+    
+    }
+
+    .left-content-text > h1, .content-text > h1 , .content > h1, .content-plain > h1 , .content-top-text > h1 , .contact > h1{
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: rgb(4, 94, 110);
+        margin: 2%;
+        font-size: 220%;
+    }
+
+    .content-plain {
+        padding: 5%;
+    }
+
+    .contact form {
+        grid-column: 1;
     }
  }
