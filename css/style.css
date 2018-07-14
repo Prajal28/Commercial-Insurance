@@ -201,7 +201,7 @@ body, html {
         font-size: 220%;
      }
 
-     ul {
+     .content-top ul {
         columns: 2;
         -webkit-columns: 2;
         -moz-columns: 2;
@@ -235,6 +235,33 @@ body, html {
           text-align: right;
         
       }
+
+      nav > div {
+          margin-left: 40%;
+          float: right;
+      }
+
+      .navbar-brand > img {
+          min-width: 200px;         
+      }
+
+      nav button {
+        font-family: 'Barlow', sans-serif;                               
+      }
+
+      .active {
+          background: rgb(4, 94, 110) !important;
+          color: white !important; 
+          border: 0cm !important;
+      }
+
+
+     
+   
+
+     
+
+      
 }
 
 /* smaller screens */
