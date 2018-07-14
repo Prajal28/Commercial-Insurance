@@ -359,7 +359,7 @@ body, html {
         margin-top: 4%;
     }
 
-    .hero-text > button, .content-text > button , .left-content-text > button , .content button, .content-top-text button{
+    .hero-text > button, .content-text > button , .left-content-text > button , .content button, .content-top-text button, .contact button{
         font-family: 'Barlow', sans-serif;
         width: auto;    
         font-size: auto;
@@ -404,11 +404,76 @@ body, html {
         font-size: 220%;
     }
 
-    .content-plain {
+    .content-plain , .contact {
         padding: 5%;
     }
 
-    .contact form {
-        grid-column: 1;
+    .contact form{
+            -webkit-columns: 100% 1; /* Chrome, Safari, Opera */
+            -moz-columns: 100% 1; /* Firefox */
+            columns: 100% 1;
+        
+    }
+    
+    .contact button {
+        margin: 5%;
+    }
+    
+    .g-recaptcha {
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .col, .row {
+        padding: 2%;
+    }
+
+    .page-footer {
+        background-color: whitesmoke;
+        width: 100%;
+        position: relative;
+        height: auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-weight: 500;
+        font-family: 'Barlow', sans-serif;
+        margin-top: 3%;
+        font-size:  90%;
+      }
+
+      #justanother {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+      }
+
+          /* Facebook */
+    .fa-facebook {
+        color: #3B5998;
+        
+    }
+
+    /* Twitter */
+    .fa-twitter {
+        color: #55ACEE;
+        
+    }
+    
+    .fa-youtube {
+        color: rgb(233, 6, 6);
+        
+    }
+    footer p{          
+        margin: 0%;
+        color: rgb(4, 94, 110);
+    }
+
+    
+
+
+    footer a{
+      color: rgb(4, 94, 110);
+      margin: 0%;
     }
  }
