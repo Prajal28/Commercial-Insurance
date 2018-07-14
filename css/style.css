@@ -134,7 +134,7 @@ body, html {
         font-size: 220%;
     }
 
-    .hero-text > button, .content-text > button , .left-content-text > button , .contact button{
+    .hero-text > button, .content-text > button , .left-content-text > button , .contact button, .content-top-text > button{
         font-family: 'Barlow', sans-serif;
         width: auto;    
         font-size: auto;
@@ -446,6 +446,8 @@ body, html {
         columns: 2;
         -webkit-columns: 2;
         -moz-columns: 2;
+        margin-bottom: 15%;
+        text-align: center;
       }
 
           /* Facebook */
@@ -467,13 +469,51 @@ body, html {
     footer p{          
         margin: 0%;
         color: rgb(4, 94, 110);
+        text-align: center;
+        
     }
-
-    
-
 
     footer a{
       color: rgb(4, 94, 110);
       margin: 0%;
+      text-align: center;
     }
+
+    footer b:first-of-type {
+        top: 10%;
+    }
+
+    #oopsbye {
+        display: none;
+    }
+
+    #lastbye {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        margin-top: 2%;
+        padding-left: 40%;
+    }
+
+    .footer-copyright {
+        margin-left: 20%;
+        padding-bottom: 10%;
+    }
+
+    
+    .footer-copyright a {
+        padding: 1%;
+    }    
+   
+    nav > .navbar-brand {
+        width: 30%;
+    }
+
+    nav img{
+        width: 100%;
+    }
+
+   
+    
+
  }
