@@ -225,9 +225,15 @@ body, html {
           padding: 1%;
       }
 
+      .g-recaptcha {
+          width: 50%;
+          float: left;
+      }
+
       .formbutton {
           margin-top: 2%;
           text-align: right;
+        
       }
 }
 
