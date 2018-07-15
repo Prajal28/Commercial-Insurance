@@ -13,46 +13,6 @@ body, html {
     box-sizing: border-box; 
 }
 
-/* .hero-text > button, .content-text > button {
-    font-family: 'Barlow', sans-serif;
-    width: 30%;    
-    font-size: 100%;
-    background-color: rgb(4, 94, 110);
-} */
-
-/* .content {
-    background-color: whitesmoke;
-    width: 60%;
-    text-align: left;
-    position: relative;
-    height: auto;
-    min-height: 70%;
-    
-    left: 20%;
-    font-family: 'Barlow', sans-serif;
-    margin-top: 3%;
-}
-
-.content > img {
-    height: 90%;
-    float:right;
-    width: 50%;
-}
-
-.content-text{
-    padding: 5%;
-    width: 50%;
-    font-weight: 500;
-}
-
-.content-text > h1 {
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: rgb(4, 94, 110);
-    padding-bottom: 5%;
-    font-size: 220%;
-}
- */
 
 /* Bigger Screens */
  @media (min-width: 768px) { 
@@ -513,7 +473,9 @@ body, html {
         width: 100%;
     }
 
-   
+    .fa {        
+        zoom: 1.5;         
+    }
     
 
  }
